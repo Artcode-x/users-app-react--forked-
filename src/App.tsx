@@ -61,7 +61,6 @@ export default function App() {
 
   return (
     <div>
-      <Requirements />
       <input
         style={{ marginRight: "10px" }}
         type="text"
@@ -100,6 +99,7 @@ export default function App() {
           <button onClick={() => handlePageChange(currentPage + 1)}>Next</button>
         </div>
       </div>
+      {/* <Requirements /> */}
     </div>
   )
 }
